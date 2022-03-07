@@ -5,7 +5,7 @@ import setuptools
 
 setuptools.setup(
     name="debloch",
-    version="0.1",
+    version="0.2",
     author="Tarik Ronan Drevon",
     author_email="tarik.drevon@stfc.ac.uk",
     description="Blochwave simulator for Continuous Electron Diffraction ",
@@ -21,9 +21,10 @@ setuptools.setup(
         "Operating System :: POSIX :: Linux ",
     ],
     python_requires='>=3.8',
-    install_requires=[
-        # 'EDutils','TDdisplay',
-        # 'numpy','scipy','matplotlib','colorama','pandas',
+    install_requires=['EDutilities',
+        #'TDdisplay',
+        'numpy','scipy','matplotlib','colorama','pandas',
+        'crystals',
         # 'easygui','tifffile','bsd','pickle5','bs4'
         ],
 )

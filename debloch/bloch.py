@@ -4,16 +4,16 @@ import numpy as np,pandas as pd,pickle5,os,glob,tifffile
 from typing import TYPE_CHECKING, Dict, Iterable, Optional, Sequence, Union
 from subprocess import check_output#Popen,PIPE
 from crystals import Crystal
+from utils import glob_colors as colors,handler3D as h3d
 from utils import displayStandards as dsp           #;imp.reload(dsp)
 from utils import physicsConstants as cst           #;imp.reload(cst)
-from utils import glob_colors as colors,handler3D as h3d
-from multislice import postprocess as pp            #;imp.reload(pp)
-from scattering import structure_factor as sf       #;imp.reload(sf)
-from scattering import scattering_factors as scatf  #;imp.reload(scatf)
+from EDutils import postprocess as pp                     #;imp.reload(pp)
+from EDutils import structure_factor as sf          #;imp.reload(sf)
+from EDutils import scattering_factors as scatf     #;imp.reload(scatf)
 from EDutils import viewers                         #;imp.reload(viewers)
 from EDutils import utilities as ut                 #;imp.reload(ut)
-from EDutils import display as EDdisp               ;imp.reload(EDdisp)
-from . import util as bloch_util                    ;imp.reload(bloch_util)
+from EDutils import display as EDdisp               #;imp.reload(EDdisp)
+from . import util as bloch_util                    #;imp.reload(bloch_util)
 
 class Bloch:
     """
