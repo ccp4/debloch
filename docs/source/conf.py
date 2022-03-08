@@ -17,20 +17,20 @@ import sys
 from distutils.sysconfig import get_python_lib
 from pathlib import Path
 
-import blochwave
+import debloch
 sys.path.insert(0, os.path.abspath('.'))
 
 
 # -- Project information -----------------------------------------------------
 
-project = 'ccp4-ed'
+project = 'debloch'
 copyright = '2021, tarik drevon'
 author = 'tarik drevon'
 
 # The short X.Y version
 version = ''
 # The full version, including alpha/beta/rc tags
-release = '1.0.7'
+release = '0.2'
 
 
 # -- General configuration ---------------------------------------------------
@@ -152,7 +152,7 @@ html_static_path = ['_static']
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'blochwavedoc'
+htmlhelp_basename = 'vedoc'
 
 
 # -- Options for LaTeX output ------------------------------------------------
@@ -179,7 +179,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'blochwave.tex', 'blochwave Documentation',
+    (master_doc, 'debloch.tex', 'debloch Documentation',
      'tarik drevon', 'manual'),
 ]
 
@@ -189,7 +189,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'blochwave', 'blochwave Documentation',
+    (master_doc, 'debloch', 'debloch Documentation',
      [author], 1)
 ]
 
@@ -200,8 +200,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'blochwave', 'blochwave Documentation',
-     author, 'blochwave', 'One line description of project.',
+    (master_doc, 'debloch', 'debloch Documentation',
+     author, 'tarik drevon', 'One line description of project.',
      'Miscellaneous'),
 ]
 

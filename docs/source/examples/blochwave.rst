@@ -1,5 +1,5 @@
 ==========
-Blochwave
+Debloch
 ==========
 
 The documentation for the formulation can be found elsewhere. These are simple examples
@@ -14,7 +14,7 @@ Basic usage
 *******************
 .. code-block:: python
 
-   from blochwave import bloch
+   from debloch import bloch
    b0 = bloch.Bloch('diamond',path='',u=[0,0,1],Nmax=3,Smax=0.1,opts='svt')
 
    b0.show_beam_vs_thickness()

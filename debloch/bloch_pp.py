@@ -3,12 +3,12 @@ import importlib as imp
 import os,numpy as np
 from subprocess import Popen
 from typing import TYPE_CHECKING, Dict, Iterable, Optional, Sequence, Union
-from utils import displayStandards as dsp;imp.reload(dsp)
-from EDutils import display as EDdisp #;imp.reload(EDdisp)
-from EDutils import rotate_exp        ;imp.reload(rotate_exp)
-from EDutils import utilities as ut   #;imp.reload(ut)
-from EDutils import viewers as vw     ;imp.reload(vw)
-from . import bloch                   ;imp.reload(bloch)
+from utils import displayStandards as dsp   #;imp.reload(dsp)
+from EDutils import display as EDdisp       #;imp.reload(EDdisp)
+from EDutils import rotate_exp              #;imp.reload(rotate_exp)
+from EDutils import utilities as ut         #;imp.reload(ut)
+from EDutils import viewers as vw           #;imp.reload(vw)
+from . import bloch                         #;imp.reload(bloch)
 
 class Bloch_cont(rotate_exp.Rocking):
     def __init__(self,**kwargs):

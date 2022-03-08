@@ -1,7 +1,7 @@
-Blochwave
+debloch
 =========
 
-.. currentmodule:: blochwave
+.. currentmodule:: debloch
 
 .. autosummary::
    :toctree: ../reference

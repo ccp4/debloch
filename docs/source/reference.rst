@@ -8,5 +8,4 @@ Module Index
 .. toctree::
    :maxdepth: 3
 
-   reference_index/blochwave
-   reference_index/EDutils
+   reference_index/debloch
