@@ -1,1 +1,3 @@
+sphinx_copybutton
+furo
 debloch
