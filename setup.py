@@ -9,7 +9,7 @@ setuptools.setup(
     author="Tarik Ronan Drevon",
     author_email="tarik.drevon@stfc.ac.uk",
     description="Blochwave simulator for Continuous Electron Diffraction",
-    long_description='long_description,
+    long_description=long_description,
     long_description_content_type="",
     url="https://pypi.org/project/debloch",
     project_urls={
