@@ -13,7 +13,7 @@ setuptools.setup(
     long_description_content_type="",
     url="https://pypi.org/project/debloch",
     project_urls={
-        'Documentation': 'https://pyscatspheres.readthedocs.io/en/latest/',
+        'Documentation': 'https://debloch.readthedocs.io/en/latest/',
         'Source':'https://github.com/ccp4/debloch',
     },
     packages=setuptools.find_packages(),

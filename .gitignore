@@ -73,7 +73,7 @@ instance/
 docs/_build/
 docs/source/reference
 docs/source/_static
-docs/source/_templates
+#docs/source/_templates
 
 # PyBuilder
 target/
