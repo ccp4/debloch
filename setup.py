@@ -25,7 +25,7 @@ setuptools.setup(
         "Operating System :: POSIX :: Linux ",
     ],
     python_requires='>=3.8',
-    install_requires=['EDutilities',
+    install_requires=['EDutilities>=0.2',
         #'TDdisplay',
         'numpy','scipy','matplotlib','colorama','pandas',
         'crystals',
