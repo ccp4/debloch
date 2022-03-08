@@ -1,17 +1,21 @@
 import setuptools
 
-#with open("latex/README.md", "r") as fh:
-#    long_description = fh.read()
+with open("README.md", "r") as fh:
+   long_description = fh.read()
 
 setuptools.setup(
     name="debloch",
     version="0.2",
     author="Tarik Ronan Drevon",
     author_email="tarik.drevon@stfc.ac.uk",
-    description="Blochwave simulator for Continuous Electron Diffraction ",
-    long_description='contains a builtin Blochwave solver and a wrapper for FELIX, an efficient fortran implement blohwave based dynamical refinement solver ', #long_description,
+    description="Blochwave simulator for Continuous Electron Diffraction",
+    long_description='long_description,
     long_description_content_type="",
-    url="https://www.ccp4.com/ccp4-ed/debloch",
+    url="https://pypi.org/project/debloch",
+    project_urls={
+        'Documentation': 'https://pyscatspheres.readthedocs.io/en/latest/',
+        'Source':'https://github.com/ccp4/debloch',
+    },
     packages=setuptools.find_packages(),
     include_package_data=True,
     package_data={},
