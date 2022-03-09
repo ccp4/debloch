@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="debloch",
-    version="0.4",
+    version="0.5",
     author="Tarik Ronan Drevon",
     author_email="tarik.drevon@stfc.ac.uk",
     description="Blochwave simulator for Continuous Electron Diffraction",
@@ -25,7 +25,7 @@ setuptools.setup(
         "Operating System :: POSIX :: Linux ",
     ],
     python_requires='>=3.8',
-    install_requires=['EDutilities>=0.4',
+    install_requires=['EDutilities>=0.5',
         #'TDdisplay',
         'numpy','scipy','matplotlib','colorama','pandas',
         'crystals',
